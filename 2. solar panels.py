@@ -1,3 +1,4 @@
+# The second task. This is not the best solution. See the 2.1 file
 
 def solution(xs):
     import numpy as np

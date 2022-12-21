@@ -1,8 +1,4 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+# This is a sample Python script with first task from google
 
 def solution(x):
     result = ''
@@ -19,4 +15,3 @@ if __name__ == '__main__':
 
 """Output:     did you see last night's episode?"""
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/

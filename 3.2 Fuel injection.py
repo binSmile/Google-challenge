@@ -1,4 +1,6 @@
 '''
+The third level of tasks in google chalenge
+
 Add one fuel
 rem one fuel
 Div by 2 (even pellets)

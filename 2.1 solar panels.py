@@ -1,3 +1,4 @@
+# The finish solution of the second task
 
 def solution(xs):
     xs_pos = []

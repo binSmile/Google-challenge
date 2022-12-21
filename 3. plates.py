@@ -1,7 +1,8 @@
 import sys
 
-
-def solution(L): # L contain digits from 0 to 9
+def solution(L):
+    '''That's mine solution
+    L contain digits from 0 to 9'''
     L.sort(reverse=True)
     if not L:
         return 0
@@ -58,6 +59,9 @@ from itertools import combinations
 import itertools
 itertools.combinations()
 def answer(l):
+    '''
+    This is not mine solution, but very beautiful.
+    '''
 	l.sort(reverse = True)
 	for i in reversed(range(1, len(l) + 1)):
 		for tup in combinations(l, i):
@@ -65,15 +69,17 @@ def answer(l):
 	return 0
 
 if __name__ == '__main__':
-    # for i in range(99999,999999):
-    #
-    #     todo = map(int,list(str(i)))
-        s2 = answer([3,5,4,8,9,1])
-    #     s1 = solution(todo)
-    #     if s1 != s2:
-    #         print 'Attention' + str(i)
-    #         sys.exit(1)
-    # print 'well done'
+
+    # You can compare two algorithms:
+
+    for i in range(99999,999999):
+        check = map(int,list(str(i)))
+        s2 = answer(check)
+        s1 = solution(check)
+        if s1 != s2:
+            print 'Attention' + str(i)
+            sys.exit(1)
+    print 'well done'
 
 
 # 4311
